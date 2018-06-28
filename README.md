@@ -42,10 +42,10 @@ In `_config.yml` pas je de `baseurl` aan, van:
 ```
 # Site settings
 # ─────────────
-baseurl: /1718-nmd2-code-2ek # the subpath of your site, e.g. /blog
+baseurl: /1718-nmd2-code-ibutler # the subpath of your site, e.g. /blog
 ```
 
-naar `«repositorynaam»` (bv. `1718-nmd2-code-2ek-Bartmi`):
+naar `«repositorynaam»` (bv. `1718-nmd2-code-ibutler-Bartmi`):
 
 ```
 # Site settings
@@ -59,5 +59,5 @@ Op GitHub ga je naar je repository en klik op **Settings**. Scroll naar beneden 
 
 ### Voorbeeldsite
 
- - Basissjabloon <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-irent>
- - Persoonlijke repo van Bart Missant <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-irent-Bartmi>
+ - Basissjabloon <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-ibutler>
+ - Persoonlijke repo van Olivier Parent <https://gdmgent-1718-nmd2.github.io/1718-nmd2-code-ibutler-OlivierParent>
