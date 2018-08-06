@@ -1,0 +1,117 @@
+--- 
+layout : default 
+permalink: winkelkar_betalen 
+# Custom Page Variables 
+# ───────────────────── 
+title: De Kotmadam 
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 maintitle">
+            Winkelkar
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3" align="center">
+            <img class="icon_winkelkar" src="{{ 'assets/images/icon_date.png' | relative_url }}">
+        </div>
+        <div class="col-3" align="center">
+            <img class="icon_winkelkar" src="{{ 'assets/images/icon_user.png' | relative_url }}">
+        </div>
+        <div class="col-3" align="center">
+            <img class="icon_winkelkar" src="{{ 'assets/images/icon_money.png' | relative_url }}">
+        </div>
+        <div class="col-3" align="center">
+            <img class="icon_winkelkar" src="{{ 'assets/images/icon_done.png' | relative_url }}">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="progress">
+                <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+        <div class="row justify-content-md-center date_page">
+            <div class="col-12" id="titel_winkelkar_bestelling">
+                Jouw bestelling
+            </div>
+            <div class="col-xs-12 col-lg-7 text_bestelling">
+                <div>
+                    Datum
+                    <p class="bestelling_rechts" align="right">
+                        10 December
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-7 text_bestelling">
+                <div>
+                    Extra opties
+                    <p class="bestelling_rechts" align="right">
+                        Ontbijt (€7)<br>
+                        Lunch: broodje kaas (€3)<br>
+                        Douche (€2)
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-7 bestelling_totaal">
+                <div>
+                    Totaal
+                    <p class="bestelling_rechts" align="right">
+                        €32
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row justify-content-md-center date_page">
+        <div class="col-12 titel_winkelkar">
+            Betaalwijze
+        </div>
+        <div class="col-xs-10 col-lg-3 user_page">
+            <label class="container_checkbox">Mastercard
+                <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    <img class="img_betalen" src="{{ 'assets/images/mastercard.png' | relative_url }}">
+            </label>
+            <label class="container_checkbox">Maestro
+                <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <img class="img_betalen_groot" src="{{ 'assets/images/maestro.png' | relative_url }}">
+            </label>
+            <label class="container_checkbox">Visa
+                <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <img class="img_betalen_groot" src="{{ 'assets/images/visa.png' | relative_url }}">
+            </label>
+            <label class="container_checkbox">Paypal
+                <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <img class="img_betalen" src="{{ 'assets/images/paypal.png' | relative_url }}">
+            </label>
+            <label class="container_checkbox">Bancontact
+                <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <img class="img_betalen_groot" src="{{ 'assets/images/bancontact.png' | relative_url }}">
+            </label>
+        </div>
+    </div>
+</div>
+
+<div class="buttons_winkelkar">
+    <a href="winkelkar_user" id="prev">&#10094; Terug</a>
+    <a href="winkelkar_compleet.html" id="next">Verder &#10095;</a>	
+</div>
