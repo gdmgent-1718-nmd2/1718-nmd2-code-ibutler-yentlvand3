@@ -675,75 +675,54 @@ ul {
 
 /* footer */
 
-#footer_design {
-  float: right;
-  font-family: 'Cagliostro', 'sans-serif';
-  font-size: 13px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  text-align: right;  
-}
-
-#footer_design a:hover {
-  text-decoration: none;
-  color: #070303
-}
-
-#footer_design a:active {
-  text-decoration: none;
-  color: #070303
-}
-
-#footer_location {
-  font-family: 'Cagliostro', 'sans-serif';
-  font-size: 13px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-#footer {
-  color: #908F8F;
-  font-family: 'Cagliostro', 'sans-serif';
-  font-size: 13px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+footer {
+  background-color: #343D5A;
   float: none;
-}
-
-#footer a {
   text-decoration: none;
 }
 
-#footer a:hover {
-  color: #070303;
+footer h1 {
+color: #FFD195;
+font-family: 'Futura', 'sans-serif';
+font-size: 20px;
+letter-spacing: 2px;
+text-align: center;
 }
 
-#footer a:active {
-  color: #070303;
+footer p {
+  color: #BCC9D1;
+  font-family: 'Futura', 'sans-serif';
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 20px;
+  }
+
+.fa {
+  color: #BCC9D1;
+  font-weight: 50pt;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
 }
 
-#icon_location {
-  width: 8%;
+.fa:hover {
+  color: #FFD195;
+  text-decoration: none;
 }
 
-#facebook {
-  width: 20px;
+.fa:active {
+  color: #FFD195;
+  text-decoration: none;
 }
 
-#instagram {
-  width: 17px;
-}
-
-#twitter {
-  width: 20px;
+.icons {
+  height: 40px;
+  margin: 20px;
+  margin-left: 100px;
 }
 
 @media only screen and (max-width: 576px) {
-  #logo {
-    font-size: 3em;
-    text-align: center;
-  }
 
   .weekdays li, .days li {
     width: 12.5%;
@@ -758,28 +737,6 @@ ul {
   .text {
     font-size: 13px;
     padding: 8px 16px;
-  }
-
-  #logo {
-    font-size: 3em;
-    text-align: center;
-  }
-
-  #footer_location {
-    font-size: 8px;
-  }
-
-  #footer_design {
-    font-size: 8px;
-  }
-
-  #footer {
-    font-size: 8px;
-    margin-bottom: 13px;
-  }
-
-  #icon_location {
-    width: 15%;
   }
 
   .weekdays li, .days li {
@@ -806,20 +763,6 @@ ul {
     width: 60%;
   }
 
-  #facebook {
-    width: 13px;
-  }
-  
-  #instagram {
-    width: 10px;
-  }
-  
-  #twitter {
-    width: 13px;
-  }
-  .icons {
-    margin-top: 0px;
-  }
   .normal_text {
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */

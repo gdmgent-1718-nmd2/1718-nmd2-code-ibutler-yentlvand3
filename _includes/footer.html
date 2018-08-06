@@ -1,26 +1,48 @@
-<footer class="bd-footer navbar-light bg-light text-muted">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<footer>
     <div class="container">
         <div class="row">
-            <div class="col-4" id="footer">
-                <a href="{{ site.baseurl }}{% link pages/index.html %}">Disclaimer</a>
-                <br>
-                <a href="{{ site.baseurl }}{% link pages/index.html %}">Voorwaarden</a>
-                <div class="icons">
-                        <a class="navbar-brand nav-link-2" href="http://www.facebook.com"><img id="facebook" src="{{ 'assets/images/facebook.png' | absolute_url }}"></a>
-                        <a class="navbar-brand nav-link-2" href="http://www.twitter.com"><img id="twitter" src="{{ 'assets/images/twitter.png' | relative_url }}"></a>
-                        <a class="navbar-brand nav-link-2" href="http://www.instagram.com"><img id="instagram" src="{{ 'assets/images/instagram.png' | relative_url }}"></a>
+            <div class="col-3">
+                <img class="icons" src="{{ 'assets/images/follow.png' | relative_url }}">
+                <h1>
+                    Follow us
+                </h1>
+                <div>
+                        <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+                        <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+                        <a href="http://www.instagram.com" class="fa fa-instagram"></a>
                 </div>  
             </div>
-            <div class="col-4" id="footer_location">
-                <img id="icon_location" src="{{ 'assets/images/locatie.png' | relative_url }}">
+            <div class="col-3">
+                <img class="icons" src="{{ 'assets/images/adres.png' | relative_url }}">
+                <h1>
+                    Adres
+                </h1>
+                <p>
+                    Smidsestraat 11 
                 <br>
+                    1760 Roosdaal 
                 <br>
-                <p>Industrieweg 232
-                <br>9030 GENT</p>
+                    België
+                </p>
+                
             </div>
-            <div class="col-4" id="footer_design">
-                <p>Designed and built <br>by
-                    <a href="https://facebook.com/yenteltjuuuh" target="_blank" rel="noopener">Yentl Van der Plas
+            <div class="col-3">
+                <img class="icons" src="{{ 'assets/images/email.png' | relative_url }}">
+                <h1>
+                    Email
+                </h1>
+                <p>
+                    info@iparty.com
+                </p>
+            </div>
+            <div class="col-3">
+                <img class="icons" src="{{ 'assets/images/telefoon.png' | relative_url }}">
+                <h1>
+                    Telefoon
+                </h1>
+                <p>
+                    054 26 00 82
                 </p>
             </div>
         </div>
