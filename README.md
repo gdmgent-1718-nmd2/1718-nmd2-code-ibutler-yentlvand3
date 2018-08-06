@@ -45,7 +45,7 @@ In `_config.yml` pas je de `baseurl` aan, van:
 baseurl: /1718-nmd2-code-ibutler # the subpath of your site, e.g. /blog
 ```
 
-naar `«repositorynaam»` (bv. `1718-nmd2-code-ibutler-Bartmi`):
+naar `«yentlvand3»` (bv. `1718-nmd2-code-ibutler-Bartmi`):
 
 ```
 # Site settings
