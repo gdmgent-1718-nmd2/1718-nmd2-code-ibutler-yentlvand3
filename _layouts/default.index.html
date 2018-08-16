@@ -8,13 +8,27 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <p>Geeft u graag feestjes, maar haat u alle dingen die er aan vooraf gaan? Huur mij dan nu als jouw persoonlijke partyplanner. 
-        Ik regel alles tot in de puntjes naar jouw wens. Zodat u zorgeloos kan genieten van jouw feest! 
-    </p>
-    <img class="home_bed" src="{{ 'assets/images/vlagjes.png' | relative_url }}">
-    <h1>
-        IPARTY
-    </h1>
+<div class="home_blue">
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6">
+            <p class="home_p"> Geeft u graag feestjes, maar haat u alle dingen die er aan vooraf gaan? Huur mij dan nu als jouw persoonlijke partyplanner. 
+                Ik regel alles tot in de puntjes naar jouw wens. Zodat u zorgeloos kan genieten van jouw feest! 
+            </p>
+        </div>
+        <div class="col-3">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <img class="home_nav" src="{{ 'assets/images/vlagjes.png' | relative_url }}">
+                <h1 class="home_party">
+                    IPARTY
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
     {% include nav.html %}
     {{ content }}
     {% include footer.html %}
