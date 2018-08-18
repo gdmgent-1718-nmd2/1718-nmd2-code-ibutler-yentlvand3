@@ -11,6 +11,15 @@ nav {
     letter-spacing: 2px;
   }
 
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
   .nav-link {
     color: #EAF4F3;
     padding: 12px;
@@ -25,12 +34,22 @@ nav {
   .nav-link:hover {
     color: #FFD195;
   }
-  
-  @media (max-width: 768px) {
-    .navbar-nav {
-        float: none !important;
-        margin-right: 0;
-    }
-  }
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: none;
+    border: 2px solid #FFD195;
+    border-radius: 0.25rem;
+    color: #FFD195;
+}
+
+h3 {
+  padding-top: -20px ;
+}
+
+
+
+
 
 

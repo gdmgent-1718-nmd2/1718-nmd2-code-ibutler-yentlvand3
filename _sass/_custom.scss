@@ -97,6 +97,19 @@ p {
   text-align: center;
 }
 
+.imgoo {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 10px double #F5F5F5;
+  align-content: center;
+}
+
+
 /* Pagina Afspraak */
 
 .icon_winkelkar {
@@ -115,6 +128,10 @@ option {
 .bold {
   font-weight: bold;
   text-align: center;
+}
+
+.margin {
+  margin-left: 220px;
 }
 
 /* Progress bar */
@@ -170,6 +187,23 @@ option {
 /* Contactpagina */
 .w3-button {
   background-image: linear-gradient(to bottom right, #DE6A5B, #FFD195);
+  margin-top: 15px;
+}
+.form-row {
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+iframe {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 /* footer */
@@ -199,10 +233,13 @@ footer p {
 
 .fa {
   color: #BCC9D1;
-  font-weight: 50pt;
-  width: 80px;
+  font-weight: 20pt;
+  width: 60px;
   text-align: center;
   text-decoration: none;
+  margin-right: -30px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 .fa:hover {
@@ -231,25 +268,37 @@ footer p {
   font-size: 10pt;
   }
   footer h1 {
-    font-size: 12pt;
+    font-size: 8pt;
   }
   footer p {
     font-size: 6pt;
-    margin: 2px;
+    margin: 0px;
   }
   .icons {
-    height: 40px;
+    height: 20px;
     margin: 10px;
-    margin-left: 30px;
-  }
-  .fa {
-    width: 20px;
-    margin: 2px;
-    text-align: center;
+    margin-left: 40px;
   }
   .titel {
     font-size: 15pt;
     margin-top: 8px;
+  }
+  .fa {
+    color: #BCC9D1;
+    font-weight: 20pt;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px
+  }
+  .img {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    float: left;
+  }
+  .margin {
+    margin-left: 0px;
   }
 }
  
